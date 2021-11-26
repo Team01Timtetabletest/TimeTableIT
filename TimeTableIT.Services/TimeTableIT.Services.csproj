@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TimeTable.Domain\TimeTable.Domain.csproj" />
+    <ProjectReference Include="..\TimeTableIT.Core\TimeTableIT.Core.csproj" />
+    <ProjectReference Include="..\TimeTableIT.Infastructure\TimeTableIT.Infastructure.csproj" />
+  </ItemGroup>
+
 </Project>
